@@ -14,3 +14,14 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Europe/Paris
+          plugin_languages: yes
+          plugin_lines: yes
+          plugin_achievements: yes
+          plugin_achievements_secrets: yes  
+          plugin_repositories: yes
+          plugin_repositories_featured: LionelVallet/ReHackt.Queryable.Extensions, LionelVallet/ReHackt.RazorEmails, LionelVallet/ReHackt.Extensions.Options.Validation
+          plugin_sponsors: yes
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 7849405
+          plugin_topics: yes
