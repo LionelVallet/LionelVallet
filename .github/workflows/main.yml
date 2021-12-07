@@ -26,3 +26,4 @@ jobs:
           plugin_stackoverflow_limit: 0 
           plugin_stackoverflow_user: 7849405
           plugin_topics: yes
+          plugin_topics_mode: icons
