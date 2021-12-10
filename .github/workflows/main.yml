@@ -23,7 +23,7 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: LionelVallet/ReHackt.Queryable.Extensions, LionelVallet/ReHackt.RazorEmails, LionelVallet/ReHackt.Extensions.Options.Validation
           plugin_stackoverflow: yes
-          plugin_stackoverflow_limit: 0 
+          plugin_stackoverflow_section: none 
           plugin_stackoverflow_user: 7849405
           plugin_topics: yes
           plugin_topics_mode: icons
