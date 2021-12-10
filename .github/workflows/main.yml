@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -23,7 +23,9 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: LionelVallet/ReHackt.Queryable.Extensions, LionelVallet/ReHackt.RazorEmails, LionelVallet/ReHackt.Extensions.Options.Validation
           plugin_stackoverflow: yes
-          plugin_stackoverflow_section: none 
+          plugin_stackoverflow_limit: 1
+          plugin_stackoverflow_lines: 0
+          plugin_stackoverflow_sections: ''
           plugin_stackoverflow_user: 7849405
           plugin_topics: yes
           plugin_topics_mode: icons
